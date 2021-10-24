@@ -157,15 +157,18 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
+  margin: -20px;
 }
 .card {
+  flex: 50%;
+  margin: 20px;
   position: relative;
   border-radius: 20px;
   overflow: hidden;
   padding: 32px;
-  min-width: 570px;
-  min-height: 380px;
+  max-width: 570px;
+  max-height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -223,4 +226,111 @@ body {
   height: 100%;
   z-index: -2;
   object-fit: cover;
+}
+.section-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 23px;
+  margin-top: 0;
+  margin-bottom: 47px;
+}
+.delivery-week {
+  padding: 100px 0;
+}
+.delivery-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.delivery-card {
+  position: relative;
+  width: 275px;
+  height: 182px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 15px;
+}
+.delivery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.delivery-tag {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #49494f;
+  padding: 5px 10px;
+}
+.tag-health {
+  background: #d0fd89;
+}
+
+.section-gray {
+  background: #f6f6f6;
+}
+.category {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.tabs-card {
+  max-width: 270px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.tabs-image {
+  max-width: 100%;
+}
+.tabs-card-content {
+  padding: 23px;
+  background-color: white;
+}
+.tabs-title {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+.tabs-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #b9b9be;
+}
+.tabs-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabs-price {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 23px;
+  color: #4b4b51;
+}
+.tabs-weight {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #aaaab1;
+}
+.button-outline {
+  padding:15px 25px;
+  background-color: transparent;
+  border: 2px solid #f37321;
+  box-sizing: border-box;
+  border-radius: 33px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f37321;
 }
